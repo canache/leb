@@ -1,7 +1,7 @@
 <template>
 <!-- <div style="border-bottom: 3px solid #CC0000;"> -->
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark stylish-color-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark danger-color-dark fixed-top">
 
      <!-- <b-navbar-brand href="/">
       <b-img src="../static/assets/logo.png" width="10" height="10" fluid alt="Responsive image" /> 
@@ -24,13 +24,11 @@
             <b-dropdown-item :to="{path:'/school/projet'}">Projet</b-dropdown-item>
             <b-dropdown-item :to="{path:'/school/chartre'}">Chartre</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item-dropdown text="Planning" right>
-            <b-dropdown-item :to="{path:'/planning'}">Entrainements</b-dropdown-item>
-            <b-dropdown-item :to="{path:'/planning/table'}">Table de marque</b-dropdown-item>
-          </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Equipes" right>
             <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id, params: {id:team.id}}">{{ team.shortName }}</b-dropdown-item>
           </b-nav-item-dropdown>
+          <b-nav-item href="/planning">Entrainements</b-nav-item>
+
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>
           <b-nav-item href="/boutique">Boutique</b-nav-item>
           <b-nav-item href="/administratif">Administratif</b-nav-item>
@@ -73,14 +71,10 @@ export default {
 };
 </script>
 <style scoped>
- /* .navbar {
-    border-bottom: 3px solid #E54B4B;
+ .navbar {
+    /*border-bottom: 3px solid #fff;*/
+    font-weight: 400;
 
   }
-  #top-bar-logo {
-    max-width: 150px;
-    position: absolute;
-    z-index: 10000000;
-    top: 10px;
-} */
+
 </style>

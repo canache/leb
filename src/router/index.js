@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Team from '@/components/Team'
 import Planning from '@/components/Planning'
+import Partenaires from '@/components/Partenaires'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       path: '/planning',
       name: 'Planning',
       component: Planning
+    },
+    {
+      path: '/partenaires',
+      name: 'Partenaires',
+      component: Partenaires
     }
   ]
 })

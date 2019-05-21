@@ -2,7 +2,7 @@
   <div>
 	 <!-- Footer -->
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
+<footer class="page-footer font-small elegant-color-dark pt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -113,7 +113,7 @@
         <h5 class="mb-1">Rejoins nous :</h5>
       </li>
       <li class="list-inline-item">
-        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+        <a href="#!" class="btn btn-danger-dark">Sign up!</a>
       </li>
     </ul>
     <!-- Call to action -->
@@ -143,4 +143,7 @@ export default {
 /*.page-footer {
    background-color: #E75B5B!important;
 }*/
+ .btn-danger-dark {
+  background-color:#cc0000;
+}
 </style>

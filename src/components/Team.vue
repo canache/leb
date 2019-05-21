@@ -1,77 +1,74 @@
 <template>
 	<div>
-		<header class="bg-dark py-5 mb-5">
-		    <div class="container h-100">
-		      <div class="row h-100 align-items-center">
-		        <div v-if="team" class="col-lg-12">
-		          <h1 class="display-4 text-white mt-5 mb-2"> {{team.data.teams[0].shortName}}</h1>
-		      	  <h2 class="display-4 text-white mt-5 mb-2">{{ team.data.teams[0].name }}</h2>
-		        </div>
-		      </div>
-		    </div>
-  		</header>
-	
+  	
+	  	<header class="article-header" style="background-image: url('/static/assets/team2.jpg'); background-position: center center !important;">
+	  		<h1 v-if="team" class="display-4 text-white mt-5 mb-2"> {{team.data.teams[0].shortName}}</h1>
+	  		<div class="overlay"></div>
+	  	</header>
+	  	<div class="image-caption"></div>
+		
 		<b-container>
-			<b-row>
-				<div class="loading align-center" v-if="loading">
-				  <b-spinner label="Spinning" variant="danger"/>
-			    </div>
-			</b-row>
+				<b-row>
+					<div class="loading align-center" v-if="loading">
+					  <b-spinner label="Spinning" variant="danger"/>
+				    </div>
+				</b-row>
 		</b-container> 			
 
 
-	    <div v-if="error" class="error">
-	      {{ error }}
-	    </div>
+		<div v-if="error" class="error">
+		      {{ error }}
+		</div>
 
-	    <div v-if="team" class="content">
+		<div v-if="team" class="content">
 
-	      <b-container>
-			  <b-row class="p-5">
-			    <b-col cols="12">
-			    	
-			    	<!-- Card group -->
-					<div class="card-group text-center"	>
+		      <b-container>
+				  <b-row class="p-5">
+				    <b-col cols="12">
+				    	
+				    	<!-- Card group -->
+						<div class="card-group text-center"	>
 
-					  <!-- Card -->
-					  <div class="card mb-4" v-for="calendar in calendars.slice(0,3)">
+						  <!-- Card -->
+						  <div class="card mb-4" v-for="calendar in calendars.slice(0,3)">
 
-					  	<div class="card-header danger-color text-white ">{{calendar.date | formatDate}}</div>
-					    <!-- Card content -->
-					    <div class="card-body">
+						  	<div class="card-header danger-color text-white ">{{calendar.date | formatDate}}</div>
+						    <!-- Card content -->
+						    <div class="card-body">
 
-					      <!-- Text -->
-					      <p class="card-text">{{ calendar.teams[0].name }}</p>
-					   	  <p class="card-text-vs"> vs </p>
-					      <p class="card-text">{{ calendar.teams[1].name }}</p>
+						      <!-- Text -->
+						      <p class="card-text">{{ calendar.teams[0].name }}</p>
+						   	  <p class="card-text-vs"> vs </p>
+						      <p class="card-text">{{ calendar.teams[1].name }}</p>
 
-					    </div>
-					    <!-- Card content -->
+						    </div>
+						    <!-- Card content -->
 
-					  </div>
-					  <!-- Card -->
+						  </div>
+						  <!-- Card -->
 
-					</div>
-				</b-card>
-			    </b-col>
-			  </b-row>
-			  <b-row>
-			  	<b-col cols="4">
-			  		<b-card
-					        header="Classement"
-					        header-bg-variant="light"
-					        header-text-variant="dark"
-					        align="center"
-					        body-border-variant="white">
-			    			<b-table responsive striped hover :items="ranking" :fields="ranking_fields">
-      	   					</b-table>	
-      	   				</b-card>
-      	   		</b-col>
-			  </b-row>
-			</b-container>
-	       
-	      <p></p>
-	    </div>
+						</div>
+					</b-card>
+				    </b-col>
+				  </b-row>
+				  <b-row>
+				  	<b-col cols="4">
+				  		<b-card
+						        header="Classement"
+						        header-bg-variant="light"
+						        header-text-variant="dark"
+						        align="center"
+						        body-border-variant="white">
+				    			<b-table responsive striped hover :items="ranking" :fields="ranking_fields">
+	      	   					</b-table>	
+	      	   				</b-card>
+	      	   		</b-col>
+				  </b-row>
+				</b-container>
+		       
+		      <p></p>
+		  </div>
+		  
     </div>
 </template>
 
@@ -173,5 +170,48 @@ function formatRankingTable(rankings){
 .card .card-header {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+.article-header {
+    background-size: cover;
+    background-position: 50%;
+    height: 350px;
+    position: relative;
+}
+
+
+.article-header h1 {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    line-height: 1;
+    margin-bottom: 2rem;
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+}
+
+.article-header .overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3,31,64,.25);
+}
+
+.image-caption, .wp-caption-text {
+    background: rgba(3,31,64,.15);
+    color: #54556f;
+    text-align: right;
+    padding: .25rem .5rem;
+    font-size: .75rem;
+    margin-top: 0!important;
+    margin-bottom: 1rem;
+
 }
 </style>

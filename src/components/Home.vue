@@ -1,28 +1,23 @@
 <template>
   <div>
       <!-- Page Content -->
-    <header class="bg-dark py-5 mb-5">
-        <div class="container h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-lg-12">
-              <h1 class="display-4 text-white mt-5 mb-2">Business Name or Tagline</h1>
-              <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
-            </div>
-          </div>
-        </div>
+    <header class="py-3 mb-3">  
+        <figure class="fixedratio"></figure>
+                  
     </header>
   
   <b-container>
 
     <b-row>
-      <div class="col-md-8 mb-5">
+      <div class="col-md-12 mb-5">
         <h2>Lille Est Basket</h2>
         <hr>
-        <p>Lille Est Basket a pour but la pratique du basketball et d’assurer la promotion de ce sport et du Club au sein de la Ville de Lille, de la Métropole, de la Région et à terme au niveau National et International</p>
-        <p>Vous pouvez pratiquer le Basket masculin et le Basket féminin à Lille.</p>
-        <a class="btn btn-danger btn-lg" href="#">Rejoins nous &raquo;</a>
+        <p>L’association a pour but l’enseignement et le développement de la pratique du basket dans les quartiers Saint-Maurice Pellevoisin et Fives à Lille. </p>
+        <p>A travers notamment le basket et les valeurs qu’il véhicule, l’association entend contribuer à la lutte contre l’exclusion, au développement de la mixité sociale et au renforcement de la citoyenneté au sein même de ces quartiers. </p>
+          <p>Elle veut aussi valoriser ce sport comme un outil au service de la santé, du bien-être et de la qualité de vie de toute personne et particulièrement des personnes en situation de handicap. Elle souhaite par le basket participer à toute action visant l’inclusion sociale.</p>
+        <a class="btn btn-danger-dark btn-lg" href="#">Rejoins nous &raquo;</a>
       </div>
-      <div class="col-md-4 mb-5">
+      <!-- <div class="col-md-4 mb-5">
         <h2>Contact</h2>
         <hr>
         <address>
@@ -38,12 +33,21 @@
           <abbr title="Email">E:</abbr>
           <a href="mailto:#">name@example.com</a>
         </address>
-      </div>
+      </div> -->
     </b-row>
     <!-- /.row -->
 
+
+    <b-row>
+      <div class="col-md-12 mb-5">
+        <h2>Actus</h2>
+        <hr>
+      </div>
+    </b-row>
     <div class="row">
+
       <div class="col-md-4 mb-5">
+        
         <!-- Card -->
         <div class="card">
 
@@ -63,7 +67,7 @@
             <!-- Text -->
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Button -->
-            <a href="#" class="btn btn-danger">Button</a>
+            <a href="#" class="btn btn-danger-dark">Button</a>
 
           </div>
 
@@ -91,7 +95,7 @@
             <!-- Text -->
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Button -->
-            <a href="#" class="btn btn-danger">Button</a>
+            <a href="#" class="btn btn-danger-dark">Button</a>
 
           </div>
 
@@ -118,7 +122,7 @@
             <!-- Text -->
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Button -->
-            <a href="#" class="btn btn-danger">Button</a>
+            <a href="#" class="btn btn-danger-dark">Button</a>
 
           </div>
 
@@ -140,5 +144,37 @@ export default {
       msg: "Hello!"
     }
   }
-}
+};
 </script>
+<style scoped>
+.btn-danger-dark {
+  background-color:#cc0000;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/static/assets/couverture.jpg");
+
+  /* Center and scale the image nicely */
+  height: 100vh;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height:200px;
+}
+
+ div.column {
+                /* The background image must be 800px wide */
+                max-width: 800px;
+              }
+              
+              figure.fixedratio {
+                padding-top: 30%;  /* 450px/800px = 0.5625 */
+              
+                background-image: url("/static/assets/couverture.jpg");
+                background-size: cover;
+                -moz-background-size: cover;  /* Firefox 3.6 */
+                background-position: center;  /* Internet Explorer 7/8 */
+              }
+</style>
