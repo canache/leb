@@ -78,6 +78,7 @@ import moment from 'moment'
 
 const config = {
     headers: { 
+      'Access-Control-Allow-Origin':  '*',
 	  'Access-Control-Request-Headers': 'Content-Type, Authorization',
 	  'Access-Control-Request-Method': 'GET',
     }
