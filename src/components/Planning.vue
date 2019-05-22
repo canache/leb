@@ -1,7 +1,8 @@
 <template>
   <div>
   	
-  	<header class="article-header" style="background-image: url('/static/assets/9.jpg'); background-position: center center !important;">
+  	<header class="article-header" style="background-image: url('/static/assets/background.png'); background-color: #cc0000; background-position: center center !important;">
+
   		<h1> Planning des entrainements</h1>
   		<div class="overlay"></div>
   	</header>
@@ -185,9 +186,8 @@ export default {
 </script>
 <style scoped>
 .article-header {
-    background-size: cover;
     background-position: 50%;
-    height: 350px;
+    height: 300px;
     position: relative;
 }
 

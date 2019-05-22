@@ -1,5 +1,5 @@
 <template>
-<!-- <div style="border-bottom: 3px solid #CC0000;"> -->
+<!-- <div style="border-bottom: 3px solid #CC0000;"> --> <!-- danger-color-dark -->
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark danger-color-dark fixed-top">
 
@@ -72,7 +72,7 @@ export default {
 </script>
 <style scoped>
  .navbar {
-    /*border-bottom: 3px solid #fff;*/
+    border-bottom: 3px solid #fff;
     font-weight: 400;
 
   }
