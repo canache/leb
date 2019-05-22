@@ -111,9 +111,6 @@ export default {
     '$route': 'fetchData'
   },
   methods: {
-  	const headers = {
-	  
-	};
     fetchData () {
       this.error = this.team = null
       this.loading = true
