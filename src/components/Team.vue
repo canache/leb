@@ -84,8 +84,6 @@ const config = {
     }
 };
 
-const proxyurl = "https://cors-anywhere.herokuapp.com/";
-
 export default {
   data () {
     return {
@@ -121,7 +119,7 @@ export default {
       this.loading = true
       // replace `getPost` with your data fetching util / API wrapper
        axios
-      .get(proxyurl + 'https://scorenco.com/backend/v1/widgets/' + this.$route.params.id + '/data/', config)
+      .get('https://cors-anywhere.herokuapp.com/https://scorenco.com/backend/v1/widgets/' + this.$route.params.id + '/data/', config)
       .then(response => (
       	this.team = response.data, 
       	this.ranking=formatRankingTable(response.data.data.ranking.teams), 
