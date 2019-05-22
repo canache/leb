@@ -78,11 +78,13 @@ import moment from 'moment'
 
 const config = {
     headers: { 
-      'Access-Control-Allow-Origin':  '*',
-	  'Access-Control-Request-Headers': 'Content-Type, Authorization',
-	  'Access-Control-Request-Method': 'GET',
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS'
     }
 };
+
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
 export default {
   data () {
@@ -111,12 +113,15 @@ export default {
     '$route': 'fetchData'
   },
   methods: {
+  	const headers = {
+	  
+	};
     fetchData () {
       this.error = this.team = null
       this.loading = true
       // replace `getPost` with your data fetching util / API wrapper
        axios
-      .get('https://scorenco.com/backend/v1/widgets/' + this.$route.params.id + '/data/', config)
+      .get(proxyurl + 'https://scorenco.com/backend/v1/widgets/' + this.$route.params.id + '/data/', config)
       .then(response => (
       	this.team = response.data, 
       	this.ranking=formatRankingTable(response.data.data.ranking.teams), 
