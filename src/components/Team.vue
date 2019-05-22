@@ -1,7 +1,7 @@
 <template>
 	<div>
   	
-	  	<header class="article-header" style="background-image: url('/static/assets/team2.jpg'); background-position: center center !important;">
+	  	<header class="article-header" style="background-image: url('/static/assets/9.jpg'); background-position: center center !important;">
 	  		<h1 v-if="team" class="display-4 text-white mt-5 mb-2"> {{team.data.teams[0].shortName}}</h1>
 	  		<div class="overlay"></div>
 	  	</header>
