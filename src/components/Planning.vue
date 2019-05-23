@@ -1,19 +1,14 @@
 <template>
   <div>
   	
-  	<header class="article-header" style="background-image: url('/static/assets/background.png'); background-color: #cc0000; background-position: center center !important;">
-
-  		<h1> Planning des entrainements</h1>
-  		<div class="overlay"></div>
-  	</header>
-  	<div class="image-caption"></div>
+	<Header title="Planning des entrainements"/>
 
   	<div>
 	 <!--Table-->
-	 <b-container class="pt-5">
+	 <b-container class="pt-5 pb-5">
 	 	<b-row>
 	 		<b-col cols="12">
-	 			<table id="tablePreview" class="table table-bordered table-sm">
+	 			<table id="tablePreview" class="table-responsive table-bordered table-sm">
 				<!--Table head-->
 				  <thead>
 				    <tr>
@@ -178,52 +173,15 @@
 
 <script>
 
+import Header from './Header.vue'
+
 export default {
   name: 'planning',
+  components: {
+    Header
+  }
 
 
 };
 </script>
-<style scoped>
-.article-header {
-    background-position: 50%;
-    height: 300px;
-    position: relative;
-}
 
-
-.article-header h1 {
-    display: block;
-    width: 100%;
-    border: none;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    z-index: 2;
-    bottom: 0;
-    line-height: 1;
-    margin-bottom: 2rem;
-    text-transform: uppercase!important;
-    font-weight: 700!important;
-}
-
-.article-header .overlay {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(3,31,64,.25);
-}
-
-.image-caption, .wp-caption-text {
-    background: rgba(3,31,64,.15);
-    color: #54556f;
-    text-align: right;
-    padding: .25rem .5rem;
-    font-size: .75rem;
-    margin-top: 0!important;
-    margin-bottom: 1rem;
-
-}
-</style>

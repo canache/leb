@@ -22,7 +22,7 @@
 
 		<div v-if="team" class="content">
 
-		      <b-container>
+		      <b-container class="pt-5 pb-5">
 				  <b-row class="p-5">
 				    <b-col cols="12">
 				    	
@@ -32,7 +32,7 @@
 						  <!-- Card -->
 						  <div class="card mb-4" v-for="calendar in calendars.slice(0,3)">
 
-						  	<div class="card-header danger-color text-white ">{{calendar.date | formatDate}}</div>
+						  	<div class="card-header danger-color text-white ">Match à venir : {{calendar.date | formatDate}}</div>
 						    <!-- Card content -->
 						    <div class="card-body">
 
@@ -52,7 +52,7 @@
 				    </b-col>
 				  </b-row>
 				  <b-row>
-				  	<b-col cols="4">
+				  	<b-col cols="12">
 				  		<b-card
 						        header="Classement"
 						        header-bg-variant="light"

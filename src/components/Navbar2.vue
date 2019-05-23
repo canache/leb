@@ -34,6 +34,15 @@
 </div>
 </template>
 <script>
+import axios from 'axios'
+
+const config = {
+    headers: { 
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, OPTIONS'
+    }
+};
 
 export default {
   name: 'navbar',
