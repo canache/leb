@@ -1,11 +1,7 @@
 <template>
 	<div>
-  	
-	  	<header class="article-header" style="background-image: url('/static/assets/9.jpg'); background-position: center center !important;">
-	  		<h1 v-if="team" class="display-4 text-white mt-5 mb-2"> {{team.data.teams[0].shortName}}</h1>
-	  		<div class="overlay"></div>
-	  	</header>
-	  	<div class="image-caption"></div>
+
+	  	<Header :title="name"/>
 		
 		<b-container>
 				<b-row>
@@ -32,7 +28,7 @@
 						  <!-- Card -->
 						  <div class="card mb-4" v-for="calendar in calendars.slice(0,3)">
 
-						  	<div class="card-header danger-color text-white ">Match à venir : {{calendar.date | formatDate}}</div>
+						  	<div class="card-header danger-color-dark text-white ">Match à venir : {{calendar.date | formatDate}}</div>
 						    <!-- Card content -->
 						    <div class="card-body">
 
@@ -75,6 +71,8 @@
 <script>
 import axios from 'axios'
 import moment from 'moment'
+import Header from './Header.vue'
+
 
 const config = {
     headers: { 
@@ -85,6 +83,9 @@ const config = {
 };
 
 export default {
+  components: {
+    Header
+  },
   data () {
     return {
       loading: false,
@@ -97,14 +98,17 @@ export default {
 	      {key: 'g', label:'g'},
 	      {key:'p', label:'p'}
       ],
+      name: null,
       calendars: null,
       error: null,
     }
   },
   created () {
+  	this.name=this.$route.params.name;
+  	console.log(this.name);
     // fetch the data when the view is created and the data is
     // already being observed
-    this.fetchData()
+    this.fetchData();
   },
   watch: {
     // call again the method if the route changes

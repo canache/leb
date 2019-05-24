@@ -21,7 +21,7 @@
             <b-dropdown-item :to="{path:'/club/chartre'}">Chartre</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Equipes" right>
-            <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id, params: {id:team.id}}">{{ team.shortName }}</b-dropdown-item>
+            <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id + '/' + team.shortName, params: {id:team.id, name:team.shortName}}">{{ team.shortName }}</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="/planning">Entrainements</b-nav-item>
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>

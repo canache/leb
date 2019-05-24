@@ -185,3 +185,14 @@ export default {
 };
 </script>
 
+<style>
+.card.card-cascade.narrower {
+    margin-top: 1.25rem;
+}
+
+.card.card-cascade .view.view-cascade {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+</style>

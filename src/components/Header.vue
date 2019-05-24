@@ -1,7 +1,7 @@
 <template>
 	<div>
     <header class="article-header" style="background-image: url('/static/assets/background2.png'); background-color: #212121; background-position: center center !important;">
-  		<h1> {{ title }}</h1>
+  		<h1 v-if="title"> {{ title }}</h1>
   		<div class="overlay"></div>
   	</header>
   	<div class="image-caption"></div>

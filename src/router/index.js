@@ -16,7 +16,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/team/:id',
+      path: '/team/:id/:name',
       name: 'Team',
       component: Team,
       props: {default: true}	
