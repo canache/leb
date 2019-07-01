@@ -3,10 +3,12 @@
   	<Header title="Partenaires"/>
   	<b-container class="pt-5 pb-5">
   	<div class="row">
-		  <h2 class="display-4">Ils nous ont fait confiance!</h2>
-		  <hr>
+		  <h1>Ils nous ont fait confiance :</h1>
+	 	<span class="border-top my-3"></span>
   	</div>
-
+  	<div class="row">
+	 	<span class="border-top my-3"></span>
+  	</div>
 		<div class="row">
 	      <figure class="col-md-4">
 	        <a href="/static/assets/partenaires/1.jpg" data-size="1600x1067">
@@ -55,7 +57,7 @@
 	  <div class="row">
 
 		  <div class="col-md-12 mb-5">
-	        <p>Vous aussi devenez partenaires, et associer votre entreprises aux valeurs du Lille Est Basket </p>
+	        <p>Vous aussi devenez partenaires, et associez votre entreprises aux valeurs du Lille Est Basket </p>
 	        <a class="btn btn-danger-dark btn-lg" href="#">Devenir partenaire</a>
 	      </div>
 	  			 
