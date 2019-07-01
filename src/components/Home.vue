@@ -17,23 +17,6 @@
           <p>Elle veut aussi valoriser ce sport comme un outil au service de la santé, du bien-être et de la qualité de vie de toute personne et particulièrement des personnes en situation de handicap. Elle souhaite par le basket participer à toute action visant l’inclusion sociale.</p>
         <a class="btn btn-danger-dark btn-lg" href="#">Rejoins nous &raquo;</a>
       </div>
-      <!-- <div class="col-md-4 mb-5">
-        <h2>Contact</h2>
-        <hr>
-        <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">P:</abbr>
-          (123) 456-7890
-          <br>
-          <abbr title="Email">E:</abbr>
-          <a href="mailto:#">name@example.com</a>
-        </address>
-      </div> -->
     </b-row>
     <!-- /.row -->
 
@@ -81,7 +64,7 @@
 
           <!-- Card image -->
           <div class="view overlay">
-            <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
+            <img class="card-img-top" src="/static/assets/basketball.jpg" alt="Card image cap">
             <a href="#!">
               <div class="mask rgba-white-slight"></div>
             </a>
@@ -91,11 +74,11 @@
           <div class="card-body">
 
             <!-- Title -->
-            <h4 class="card-title">Card title</h4>
+            <h4 class="card-title">Fin de saison</h4>
             <!-- Text -->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">La saison touche à sa fin, n'oublie pas de te réinscrire</p>
             <!-- Button -->
-            <a href="#" class="btn btn-danger-dark">Button</a>
+            <a href="#" class="btn btn-danger-dark">Rejoins nous</a>
 
           </div>
 
@@ -141,7 +124,7 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: "Hello!"
+
     }
   }
 };
@@ -149,6 +132,7 @@ export default {
 <style scoped>
 .btn-danger-dark {
   background-color:#cc0000;
+  color: #fff;
 }
 
 .bg {

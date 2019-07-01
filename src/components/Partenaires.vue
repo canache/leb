@@ -81,6 +81,7 @@ export default {
 <style scoped>
 .btn-danger-dark {
   background-color:#cc0000;
+  color: #fff;
 }
 
 </style>

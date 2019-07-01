@@ -14,9 +14,8 @@
         <div class="col-md-4 mx-auto">
 
           <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Lille Est Basket</h5>
+          <p>Lille Est Basket est une association sportive à but non lucrative, spécialisée dans la pratique du basket ball</p>
 
         </div>
         <!-- Grid column -->
@@ -27,20 +26,17 @@
         <div class="col-md-2 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens Utiles</h5>
 
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <a href="/planning">Entrainements</a>
             </li>
             <li>
-              <a href="#!">Link 2</a>
+              <a href="/partenaires">Partenaires</a>
             </li>
             <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
 
@@ -53,23 +49,15 @@
         <div class="col-md-2 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts</h5>
 
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-
+          <p>
+          <i class="fas fa-home mr-3"></i> 23 Rue Vaucanson, 59260 Lille</p>
+           <p>
+          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+          <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+ 
         </div>
         <!-- Grid column -->
 
@@ -79,20 +67,13 @@
         <div class="col-md-2 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social</h5>
 
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
+              <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> <mdb-icon fab icon="facebook" /></i>
+              </a>
             </li>
           </ul>
 
@@ -110,17 +91,14 @@
     <!-- Call to action -->
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <h5 class="mb-1">Rejoins nous :</h5>
-      </li>
-      <li class="list-inline-item">
-        <a href="#!" class="btn btn-danger-dark">Sign up!</a>
+        <a href="#!" class="btn btn-danger-dark">Rejoins nous</a>
       </li>
     </ul>
     <!-- Call to action -->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> LEBasket.com</a>
+      <a href="/"> LilleEstBasket.com</a>
     </div>
     <!-- Copyright -->
 
@@ -131,12 +109,7 @@
 <script>
 
 export default {
-  name: 'footerComponent',
-  data () {
-    return {
-      msg: 'My footer !'
-    }
-  }
+  name: 'footerComponent'
 };
 </script>
 <style scoped>
