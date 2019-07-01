@@ -19,7 +19,7 @@
           </b-nav-item-dropdown>
           <b-nav-item href="/planning">Entrainements</b-nav-item>
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>
-          <!--<b-nav-item href="/boutique">Boutique</b-nav-item> -->
+          <b-nav-item href="/boutique">Boutique</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
     </b-collapse>

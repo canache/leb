@@ -7,14 +7,10 @@
 	 <!--Table-->
 	 <b-container class="pt-5 pb-5">
 	 	<b-row>
-	 		<b-col cols="4"></b-col>
-	 		<b-col cols="4"></b-col>
-	 		<b-col cols="4"></b-col>
-	 		<hr>
-	 	</b-row>
-	 	<b-row>
 	 		<b-col cols="12">
-	 			<table id="tablePreview" class="table-responsive table-bordered table-sm table-hover">
+	 			<h1> Ecole de Basket </h1>
+	 			<div class="table-responsive">
+	 			<table  class="table table-bordered table-hover">
 				<!--Table head-->
 				  <thead>
 				    <tr>
@@ -84,8 +80,40 @@
 				      <td></td>
 				      <td></td>
 				    </tr>
+				   
+				  </tbody>
+				  <!--Table body-->
+				</table>
+			</div>
+				<!--Table-->
+	 		</b-col>
+	 	</b-row>
+	 	<b-row>
+	 		<span class="border-top my-3"></span>
+	 	</b-row>
+
+	 	<b-row>
+	 		<b-col cols="12">
+	 			<h1> Entrainements U15 et U18 </h1>
+	 			<div class="table-responsive">
+	 			<table class="table table-bordered table-hover">
+				<!--Table head-->
+				  <thead>
 				    <tr>
-				      <th scope="row">Minimes Filles/Garçons 14-15ans</th>
+				      <th></th>
+				      <th>Lundi</th>
+				      <th>Mardi</th>
+				      <th>Mercredi</th>
+				      <th>Jeudi</th>
+				      <th>Vendredi</th>
+				      <th>Samedi</th>
+				    </tr>
+				  </thead>
+				  <!--Table head-->
+				  <!--Table body-->
+				  <tbody>
+					<tr>
+					  <th scope="row">Minimes Filles/Garçons 14-15ans</th>
 				      <td></td>
 				      <td></td>
 				      <td></td>
@@ -102,7 +130,40 @@
 				      <td></td>
 				      <td></td>
 				    </tr>
+				   
+				  </tbody>
+				  <!--Table body-->
+				</table>
+			</div>
+				<!--Table-->
+	 		</b-col>
+	 	</b-row>
+
+	 	<b-row>
+	 		<span class="border-top my-3"></span>
+	 	</b-row>
+
+	 	<b-row>
+	 		<b-col cols="12">
+	 			<h1> Entrainements Senior </h1>
+	 			<div class="table-responsive">
+	 			<table class="table table-bordered  table-hover">
+				<!--Table head-->
+				  <thead>
 				    <tr>
+				      <th></th>
+				      <th>Lundi</th>
+				      <th>Mardi</th>
+				      <th>Mercredi</th>
+				      <th>Jeudi</th>
+				      <th>Vendredi</th>
+				      <th>Samedi</th>
+				    </tr>
+				  </thead>
+				  <!--Table head-->
+				  <!--Table body-->
+				  <tbody>
+					<tr>
 				      <th scope="row">SM3 - U20</th>
 				      <td></td>
 				      <td>21h00-22h30 - <b>FCB</b></td>
@@ -165,9 +226,11 @@
 				      <td>17h30-18h30 - <b>Herbaux</b></td>
 				      <td></td>
 				    </tr>
+				   
 				  </tbody>
 				  <!--Table body-->
 				</table>
+			</div>
 				<!--Table-->
 	 		</b-col>
 	 	</b-row>
