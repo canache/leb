@@ -7,26 +7,19 @@
       <b-img src="../static/assets/logo.png" width="10" height="10" fluid alt="Responsive image" /> 
        LilleEstBasket
     </b-navbar-brand>-->
-    <b-navbar-brand href="#">LilleEstBasket</b-navbar-brand>
+    <b-navbar-brand href="/">LilleEstBasket</b-navbar-brand>
 
     <b-navbar-toggle target="nav_collapse" />
 
     <b-collapse is-nav id="nav_collapse" >
         <b-navbar-nav>
         <!-- Navbar dropdowns -->
-          <b-nav-item href="/">Home</b-nav-item>
-          <b-nav-item-dropdown text="Club" right>
-            <b-dropdown-item :to="{path:'/club/historique'}">Historique</b-dropdown-item>
-            <b-dropdown-item :to="{path:'/club/organigramme'}">Organigramme</b-dropdown-item>
-            <b-dropdown-item :to="{path:'/club/chartre'}">Chartre</b-dropdown-item>
-          </b-nav-item-dropdown>
           <b-nav-item-dropdown text="Equipes" right>
             <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id + '/' + team.shortName, params: {id:team.id, name:team.shortName}}">{{ team.shortName }}</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="/planning">Entrainements</b-nav-item>
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>
           <b-nav-item href="/boutique">Boutique</b-nav-item>
-          <b-nav-item href="/administratif">Administratif</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
     </b-collapse>
