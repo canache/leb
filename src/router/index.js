@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Team from '@/components/Team'
 import Planning from '@/components/Planning'
 import Partenaires from '@/components/Partenaires'
+import Boutique from '@/components/Boutique'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/partenaires',
       name: 'Partenaires',
       component: Partenaires
+    },
+    {
+      path: '/boutique',
+      name: 'Boutique',
+      component: Boutique
     }
   ]
 })

@@ -36,6 +36,9 @@
               <a href="/partenaires">Partenaires</a>
             </li>
             <li>
+              <a href="/boutique">Boutque</a>
+            </li>
+            <li>
               <a href="/contact">Contact</a>
             </li>
           </ul>
