@@ -15,105 +15,20 @@
         <p>L’association a pour but l’enseignement et le développement de la pratique du basket dans les quartiers Saint-Maurice Pellevoisin et Fives à Lille. </p>
         <p>A travers notamment le basket et les valeurs qu’il véhicule, l’association entend contribuer à la lutte contre l’exclusion, au développement de la mixité sociale et au renforcement de la citoyenneté au sein même de ces quartiers. </p>
           <p>Elle veut aussi valoriser ce sport comme un outil au service de la santé, du bien-être et de la qualité de vie de toute personne et particulièrement des personnes en situation de handicap. Elle souhaite par le basket participer à toute action visant l’inclusion sociale.</p>
-        <a class="btn btn-danger-dark btn-lg" href="#">Rejoins nous &raquo;</a>
+        <a class="btn btn-danger-dark btn-lg" href="#">Rejoins nous </a>
       </div>
     </b-row>
     <!-- /.row -->
 
-
+    <!--
     <b-row>
       <div class="col-md-12 mb-5">
         <h2>Actus</h2>
         <hr>
       </div>
     </b-row>
-    <div class="row">
-
-      <div class="col-md-4 mb-5">
-        
-        <!-- Card -->
-        <div class="card">
-
-          <!-- Card image -->
-          <div class="view overlay">
-            <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-            <a href="#!">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <h4 class="card-title">Card title</h4>
-            <!-- Text -->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <!-- Button -->
-            <a href="#" class="btn btn-danger-dark">Button</a>
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <div class="col-md-4 mb-5">
-<!-- Card -->
-        <div class="card">
-
-          <!-- Card image -->
-          <div class="view overlay">
-            <img class="card-img-top" src="/static/assets/basketball.jpg" alt="Card image cap">
-            <a href="#!">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <h4 class="card-title">Fin de saison</h4>
-            <!-- Text -->
-            <p class="card-text">La saison touche à sa fin, n'oublie pas de te réinscrire</p>
-            <!-- Button -->
-            <a href="#" class="btn btn-danger-dark">Rejoins nous</a>
-
-          </div>
-
-        </div>
-        <!-- Card -->
-      </div>
-      <div class="col-md-4 mb-5">
-       <!-- Card -->
-        <div class="card">
-
-          <!-- Card image -->
-          <div class="view overlay">
-            <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-            <a href="#!">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <h4 class="card-title">Card title</h4>
-            <!-- Text -->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <!-- Button -->
-            <a href="#" class="btn btn-danger-dark">Button</a>
-
-          </div>
-
-        </div>
-        <!-- Card -->
-      </div>
-    </div>
-    <!-- /.row -->
+    <div class="row">        
+      -->
 
   </b-container>
   </div>
