@@ -20,28 +20,36 @@
     </b-row>
     <!-- /.row -->
 
-    <!--
-    <b-row>
-      <div class="col-md-12 mb-5">
-        <h2>Actus</h2>
+    
+     <div class="row">        
+      <div class="col-md-12 mb-">
         <hr>
-      </div>
-    </b-row>
-    <div class="row">        
-      -->
+     
+      <mdb-carousel :interval="8000" showControls>
+        <mdb-carousel-item img src="/static/assets/teams/2.jpg" alt="First slide" />
+        <mdb-carousel-item img src="/static/assets/teams/3.jpg" alt="Second slide" />
+        <mdb-carousel-item img src="/static/assets/teams/4.jpg" alt="Third slide" />
+        <mdb-carousel-item img src="/static/assets/teams/1.jpg" alt="First slide" />
+        <mdb-carousel-item img src="/static/assets/teams/5.jpg" alt="First slide" />
+      </mdb-carousel>
+       </div>
+    </div> 
+    <div class="row"><hr></div>
+
+
 
   </b-container>
   </div>
 </template>
 
 <script>
+import { mdbCarousel, mdbCarouselItem } from 'mdbvue';
 export default {
   name: 'home',
-  data () {
-    return {
-
+  components: {
+      mdbCarousel,
+      mdbCarouselItem
     }
-  }
 };
 </script>
 <style scoped>
