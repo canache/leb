@@ -110,9 +110,13 @@
   </div>
 </template>
 <script>
+import { mdbIcon} from 'mdbvue';
 
 export default {
-  name: 'footerComponent'
+  name: 'footerComponent',
+  components: {
+    mdbIcon
+  }
 };
 </script>
 <style scoped>
