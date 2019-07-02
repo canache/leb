@@ -18,8 +18,8 @@
             <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id + '/' + team.shortName, params: {id:team.id, name:team.shortName}}">{{ team.shortName }}</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="/planning">Entrainements</b-nav-item>
-          <b-nav-item href="/partenaires">Partenaires</b-nav-item>
           <b-nav-item href="/boutique">Boutique</b-nav-item>
+          <b-nav-item href="/partenaires">Partenaires</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
     </b-collapse>
