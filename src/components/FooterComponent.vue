@@ -15,7 +15,7 @@
 
           <!-- Content -->
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Lille Est Basket</h5>
-          <p>Lille Est Basket est une association sportive à but non lucrative, spécialisée dans la pratique du basket ball</p>
+          <p>Lille Est Basket est une association sportive à but non lucatrif, spécialisée dans la pratique du basket ball</p>
 
         </div>
         <!-- Grid column -->
