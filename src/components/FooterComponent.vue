@@ -94,7 +94,7 @@
     <!-- Call to action -->
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <a href="#!" class="btn btn-danger-dark">Rejoins nous</a>
+        <a href="/inscription" class="btn btn-danger-dark">Rejoins nous</a>
       </li>
     </ul>
     <!-- Call to action -->

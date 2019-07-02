@@ -6,6 +6,7 @@ import Planning from '@/components/Planning'
 import Partenaires from '@/components/Partenaires'
 import Boutique from '@/components/Boutique'
 import Contact from '@/components/Contact'
+import Inscription from '@/components/Inscription'
 
 Vue.use(Router)
 
@@ -42,6 +43,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/inscription',
+      name: 'Inscription',
+      component: Inscription
     }
   ]
 })

@@ -15,7 +15,7 @@
         <p>L’association a pour but l’enseignement et le développement de la pratique du basket dans les quartiers Saint-Maurice Pellevoisin et Fives à Lille. </p>
         <p>A travers notamment le basket et les valeurs qu’il véhicule, l’association entend contribuer à la lutte contre l’exclusion, au développement de la mixité sociale et au renforcement de la citoyenneté au sein même de ces quartiers. </p>
           <p>Elle veut aussi valoriser ce sport comme un outil au service de la santé, du bien-être et de la qualité de vie de toute personne et particulièrement des personnes en situation de handicap. Elle souhaite par le basket participer à toute action visant l’inclusion sociale.</p>
-        <a class="btn btn-danger-dark btn-lg" href="#">Rejoins nous </a>
+        <a class="btn btn-danger-dark btn-lg" href="/inscription">Rejoins nous </a>
       </div>
     </b-row>
     <!-- /.row -->
@@ -26,9 +26,9 @@
         <hr>
      
       <mdb-carousel :interval="8000" showControls>
-        <mdb-carousel-item img src="/static/assets/teams/2.jpg" alt="First slide" />
-        <mdb-carousel-item img src="/static/assets/teams/3.jpg" alt="Second slide" />
-        <mdb-carousel-item img src="/static/assets/teams/4.jpg" alt="Third slide" />
+        <mdb-carousel-item img src="/static/assets/teams/3.jpg" alt="First slide" />
+        <mdb-carousel-item img src="/static/assets/teams/4.jpg" alt="Second slide" />
+        <mdb-carousel-item img src="/static/assets/teams/2.jpg" alt="Third slide" />
         <mdb-carousel-item img src="/static/assets/teams/1.jpg" alt="First slide" />
         <mdb-carousel-item img src="/static/assets/teams/5.jpg" alt="First slide" />
       </mdb-carousel>

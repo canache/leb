@@ -22,6 +22,10 @@
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>
           <b-nav-item href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="/inscription" right><button class="btn btn-outline-white btn-sm my-0">Rejoins nous</button></b-nav-item>
+      </b-navbar-nav>
+
     </b-collapse>
   </nav>
 </div>

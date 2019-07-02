@@ -6,7 +6,6 @@
       <h2 class="h1-responsive font-weight-bold my-5">Le Bureau</h2>
       <mdb-row>
         <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <mdb-avatar tag="img" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" circle class="z-depth-1" alt="Sample avatar"/>
           <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
           <p class="text-uppercase red-text">Président</p>
                     <p>
@@ -18,7 +17,6 @@
  
         </mdb-col>
         <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <mdb-avatar tag="img" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" circle class="z-depth-1" alt="Sample avatar"/>
           <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
           <p class="text-uppercase red-text">Trésorier</p>
                     <p>
@@ -30,7 +28,6 @@
  
         </mdb-col>
         <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <mdb-avatar tag="img" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" circle class="z-depth-1" alt="Sample avatar"/>
           <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
           <p class="text-uppercase red-text">Secretaire général</p>
                     <p>
