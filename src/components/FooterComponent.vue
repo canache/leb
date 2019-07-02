@@ -75,7 +75,7 @@
           <ul class="list-unstyled">
             <li>
               <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/groups/709241772534757/">
-               <i class="fab fa-facebook-square fa-4x"></i> <mdb-icon fab icon="facebook" /></i>
+               <i class="fab fa-facebook-square fa-4x"></i>
               </a>
             </li>
           </ul>
