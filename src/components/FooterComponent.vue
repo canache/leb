@@ -36,7 +36,7 @@
               <a href="/partenaires">Partenaires</a>
             </li>
             <li>
-              <a href="/boutique">Boutque</a>
+              <a href="/boutique">Boutique</a>
             </li>
             <li>
               <a href="/contact">Contact</a>
@@ -52,7 +52,7 @@
         <div class="col-md-2 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
 
           <p>
           <i class="fas fa-home mr-3"></i> 23 Rue Vaucanson, 59260 Lille</p>
@@ -74,8 +74,8 @@
 
           <ul class="list-unstyled">
             <li>
-              <a class="btn-floating btn-fb mx-1">
-                <i class="fab fa-facebook-f"> <mdb-icon fab icon="facebook" /></i>
+              <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/groups/709241772534757/">
+               <i class="fab fa-facebook-square fa-4x"></i> <mdb-icon fab icon="facebook" /></i>
               </a>
             </li>
           </ul>

@@ -5,6 +5,7 @@ import Team from '@/components/Team'
 import Planning from '@/components/Planning'
 import Partenaires from '@/components/Partenaires'
 import Boutique from '@/components/Boutique'
+import Contact from '@/components/Contact'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/boutique',
       name: 'Boutique',
       component: Boutique
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     }
   ]
 })
