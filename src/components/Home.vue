@@ -9,13 +9,16 @@
   <b-container>
 
     <b-row>
-      <div class="col-md-12 mb-5">
+      <div class="col-md-8 mb-5">
         <h2>Lille Est Basket</h2>
         <hr>
         <p>L’association a pour but l’enseignement et le développement de la pratique du basket dans les quartiers Saint-Maurice Pellevoisin et Fives à Lille. </p>
         <p>A travers notamment le basket et les valeurs qu’il véhicule, l’association entend contribuer à la lutte contre l’exclusion, au développement de la mixité sociale et au renforcement de la citoyenneté au sein même de ces quartiers. </p>
           <p>Elle veut aussi valoriser ce sport comme un outil au service de la santé, du bien-être et de la qualité de vie de toute personne et particulièrement des personnes en situation de handicap. Elle souhaite par le basket participer à toute action visant l’inclusion sociale.</p>
         <a class="btn btn-danger-dark btn-lg" href="/inscription">Rejoins nous </a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="fb-page" data-href="https://www.facebook.com/LilleEstBasket/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/LilleEstBasket/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LilleEstBasket/">Lille Est Basket / LEB - Public</a></blockquote></div>
       </div>
     </b-row>
     <!-- /.row -->
@@ -49,7 +52,16 @@ export default {
   components: {
       mdbCarousel,
       mdbCarouselItem
-    }
+  },
+  mounted() {
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = `https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3&appId=784034381617146&autoLogAppEvents=1`;
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+  }
 };
 </script>
 <style scoped>
