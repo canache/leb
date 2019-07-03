@@ -1,7 +1,7 @@
 <template>
   <div>
   	
-	<Header title="Planning des entrainements"/>
+	<Cover title="Planning des entrainements"/>
 
   	<div>
 	 <!--Table-->
@@ -242,12 +242,12 @@
 
 <script>
 
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 
 export default {
   name: 'planning',
   components: {
-    Header
+    Cover
   }
 
 

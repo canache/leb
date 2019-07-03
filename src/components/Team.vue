@@ -1,7 +1,7 @@
 <template>
 	<div>
 
-	  	<Header :title="name"/>
+	  	<Cover :title="name"/>
 		
 		<b-container>
 				<b-row>
@@ -71,7 +71,7 @@
 <script>
 import axios from 'axios'
 import moment from 'moment'
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 
 
 const config = {
@@ -84,7 +84,7 @@ const config = {
 
 export default {
   components: {
-    Header
+    Cover
   },
   data () {
     return {

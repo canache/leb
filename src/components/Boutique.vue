@@ -1,6 +1,6 @@
 <template>
   <div>
-  	<Header title="Boutique"/>
+  	<Cover title="Boutique"/>
   	<b-container class="pt-5 pb-5">
     <div class="row">
 		<h1>Notre boutique ouvre ses portes :</h1>
@@ -308,12 +308,12 @@
 
 <script>
 
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 
 export default {
   name: 'boutique',
   components: {
-    Header
+    Cover
   }
 
 };

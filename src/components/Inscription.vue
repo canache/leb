@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Header title="Rejoins nous !"/>
+  <Cover title="Rejoins nous !"/>
   <mdb-container>
     <section>
       <h2 class="h1-responsive font-weight-bold my-5">Dossier de license :</h2>
@@ -34,7 +34,7 @@
     <section class="text-center">
       <h2 class="h1-responsive font-weight-bold my-5">Barèmes des cotisations 2019/2020</h2>
       <mdb-row>
-        <mdb-col lg="12" md="6"  class="mb-lg-0 mb-5">
+        <mdb-col lg="12"  class="mb-lg-0 mb-5">
           <div class="table-responsive">
 	 			<table class="table table-bordered table-hover">
 				<!--Table head-->
@@ -125,14 +125,14 @@
 
 <script>
 
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 import { mdbContainer, mdbRow, mdbCol } from 'mdbvue';
 
 
 export default {
   name: 'inscription',
   components: {
-    Header,
+    Cover,
     mdbContainer,
     mdbRow,
     mdbCol,

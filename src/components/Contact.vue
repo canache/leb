@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Header title="Contact"/>
+  <Cover title="Contact"/>
   <mdb-container>
     <section class="text-center">
       <h2 class="h1-responsive font-weight-bold my-5">Le Bureau</h2>
@@ -105,13 +105,13 @@
 
 <script>
 
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 import { mdbContainer, mdbRow, mdbCol, mdbBtn, mdbIcon, mdbInput, mdbTextarea, mdbCard, mdbCardBody } from 'mdbvue';
 
 export default {
   name: 'contact',
   components: {
-    Header,
+    Cover,
     mdbContainer,
     mdbRow,
     mdbCol,

@@ -1,6 +1,6 @@
 <template>
   <div>
-  	<Header title="Partenaires"/>
+  	<Cover title="Partenaires"/>
   	<b-container class="pt-5 pb-5">
   	<div class="row">
 		  <h1>Ils nous ont fait confiance :</h1>
@@ -58,7 +58,7 @@
 
 		  <div class="col-md-12 mb-5">
 	        <p>Vous aussi devenez partenaires, et associez votre entreprises aux valeurs du Lille Est Basket </p>
-	        <a class="btn btn-danger-dark btn-lg" href="#">Devenir partenaire</a>
+	        <a class="btn btn-danger-dark btn-lg" href="/contact">Devenir partenaire</a>
 	      </div>
 	  			 
 	  </div>
@@ -70,12 +70,12 @@
 
 <script>
 
-import Header from './Header.vue'
+import Cover from './Cover.vue'
 
 export default {
   name: 'partenaires',
   components: {
-    Header
+    Cover
   }
 
 };
