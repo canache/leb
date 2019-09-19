@@ -123,7 +123,7 @@
 		    <!-- Card content -->
 		    <div class="card-body">
 		      <!-- Title -->
-		      <h4 class="card-title">SURMAILLONT POLYESTER ROUGE</h4>
+		      <h4 class="card-title">SURMAILLOT POLYESTER ROUGE</h4>
 		    </div>
 		    <!-- Card content -->
 

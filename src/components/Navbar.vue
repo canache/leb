@@ -17,6 +17,7 @@
           <b-nav-item-dropdown text="Equipes" right>
             <b-dropdown-item v-for="team in teams" :key="team.shortName" :to="{ path:'/team/' + team.id + '/' + team.shortName, params: {id:team.id, name:team.shortName}}">{{ team.shortName }}</b-dropdown-item>
           </b-nav-item-dropdown>
+          <b-nav-item href="/effectifs">Effectifs</b-nav-item>
           <b-nav-item href="/planning">Entrainements</b-nav-item>
           <b-nav-item href="/boutique">Boutique</b-nav-item>
           <b-nav-item href="/partenaires">Partenaires</b-nav-item>
@@ -38,16 +39,16 @@ export default {
     return {
       teams: [
         {shortName: 'Senior F1', id: '5c753e152b68c923ac823afe'},
-        {shortName: 'Senior F2', id: '5c854d9fb468432134eae48c'},
-        {shortName: 'Senior F3', id: '5c854dab88cc082fd1c23fb2'},
-        {shortName: 'Senior M1', id: '5c854d1c1755c90a0631e1c8'},
-        {shortName: 'Senior M2', id: '5c854d4decb4592c2d11d6c7'},
-        {shortName: 'Senior M3', id: '5c854d741755c90a0d2b3f72'},
-        {shortName: 'U17 M1', id: '5c854e241755c90a0631e1f8'},
-        {shortName: 'U15 M1', id: '5c854e191755c90a0d2b3f8c'},
-        {shortName: 'U13 M1', id: '5c8551e6a37d5309933cfe34'},
-        {shortName: 'U13 F1', id: '5c854e5105376c2c9b85590a'},
-        {shortName: 'U13 F2', id: '5c854e6e05376c2e4682c90d'}
+        //{shortName: 'Senior F2', id: '5c854d9fb468432134eae48c'},
+        //{shortName: 'Senior F3', id: '5c854dab88cc082fd1c23fb2'},
+        {shortName: 'Senior M1', id: '5c854d1c1755c90a0631e1c8'}
+        //{shortName: 'Senior M2', id: '5c854d4decb4592c2d11d6c7'},
+        //{shortName: 'Senior M3', id: '5c854d741755c90a0d2b3f72'},
+        //{shortName: 'U17 M1', id: '5c854e241755c90a0631e1f8'},
+        //{shortName: 'U15 M1', id: '5c854e191755c90a0d2b3f8c'},
+        //{shortName: 'U13 M1', id: '5c8551e6a37d5309933cfe34'},
+        //{shortName: 'U13 F1', id: '5c854e5105376c2c9b85590a'},
+        //{shortName: 'U13 F2', id: '5c854e6e05376c2e4682c90d'}
       ]
     }
   }

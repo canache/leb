@@ -20,7 +20,10 @@
 
 		      <b-container class="pt-5 pb-5">
 				  <b-row class="p-5">
-				    <b-col cols="12">
+            <b-col cols="8">
+              TODO: Effectif
+            </b-col>
+				    <b-col cols="4">
 				    	
 				    	<!-- Card group -->
 						<div class="card-group text-center"	>
@@ -48,7 +51,9 @@
 				    </b-col>
 				  </b-row>
 				  <b-row>
-				  	<b-col cols="12">
+            <b-col cols="8">
+            </b-col>
+				  	<b-col cols="4">
 				  		<b-card
 						        header="Classement"
 						        header-bg-variant="light"

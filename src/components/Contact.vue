@@ -6,36 +6,25 @@
       <h2 class="h1-responsive font-weight-bold my-5">Le Bureau</h2>
       <mdb-row>
         <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-          <p class="text-uppercase red-text">Président</p>
-                    <p>
-          <i class="fas fa-home mr-3"></i> 23 Rue Vaucanson, 59260 Lille</p>
-           <p>
-          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-          <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
- 
-        </mdb-col>
-        <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
+          <h5 class="font-weight-bold mt-4 mb-3">Aline Gaudichet</h5>
           <p class="text-uppercase red-text">Trésorier</p>
-                    <p>
-          <i class="fas fa-home mr-3"></i> 23 Rue Vaucanson, 59260 Lille</p>
            <p>
-          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-          <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <i class="fas fa-envelope mr-3"></i> tresorier@lilleestbasket.com</p>
  
         </mdb-col>
         <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
-          <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-          <p class="text-uppercase red-text">Secretaire général</p>
-                    <p>
-          <i class="fas fa-home mr-3"></i> 23 Rue Vaucanson, 59260 Lille</p>
+          <h5 class="font-weight-bold mt-4 mb-3">Jonathan Jarrige</h5>
+          <p class="text-uppercase red-text">Président</p>
            <p>
-          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-          <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <i class="fas fa-envelope mr-3"></i> president@lilleestbasket.com</p>
+
+ 
+        </mdb-col>
+        <mdb-col lg="4" md="6"  class="mb-lg-0 mb-5">
+          <h5 class="font-weight-bold mt-4 mb-3">Laetitia Librouac Prouveur</h5>
+          <p class="text-uppercase red-text">Secretaire général</p>
+           <p>
+          <i class="fas fa-envelope mr-3"></i> secretaire@gmail.com</p>
  
         </mdb-col>
       </mdb-row>
@@ -50,20 +39,14 @@
           <br/>
           <mdb-row class="text-center">
             <mdb-col md="4">
+            </mdb-col>
+            <mdb-col md="4">
               <i class="fas fa-map-marker-alt"></i>
               <p>Salle Fives Cail</p>
               <p class="mb-md-0">23 rue Vaucanson 59260</p>
               <p class="mb-md-0">Lille</p>
             </mdb-col>
             <mdb-col md="4">
-              <i class="fas fa-phone"></i>
-              <p>+ 01 234 567 89</p>
-              <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-            </mdb-col>
-            <mdb-col md="4">
-              <i class="fas fa-envelope"></i>
-              <p>info@gmail.com</p>
-              <p class="mb-md-0">sale@gmail.com</p>
             </mdb-col>
           </mdb-row>
         </mdb-col>
@@ -79,6 +62,8 @@
           </div>
           <br/>
           <mdb-row class="text-center">
+            <mdb-col md="4">  
+            </mdb-col>
             <mdb-col md="4">
               <i class="fas fa-map-marker-alt"></i>
               <p>Salle Raymond Herbaux</p>
@@ -86,14 +71,6 @@
               <p class="mb-md-0">Lille</p>
             </mdb-col>
             <mdb-col md="4">
-              <i class="fas fa-phone"></i>
-              <p>+ 01 234 567 89</p>
-              <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-            </mdb-col>
-            <mdb-col md="4">
-              <i class="fas fa-envelope"></i>
-              <p>info@gmail.com</p>
-              <p class="mb-md-0">sale@gmail.com</p>
             </mdb-col>
           </mdb-row>
         </mdb-col>
